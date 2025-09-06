@@ -39,7 +39,3 @@ This repository serves as:
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-*All code is original work completed as part of university coursework.*
