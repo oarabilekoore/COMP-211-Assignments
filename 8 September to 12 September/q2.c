@@ -3,9 +3,6 @@
 
 #include<stdio.h>
 
-// This function returns the largest interger in an array of intergers
-// It then takes in the length of that array so it knows how many
-// elements to compare and find the largest one.
 int returnLargestInt(int numbers[], int length) {
     int largestInt = numbers[0];
     for (int i = 1; i < length; i++) {
@@ -21,8 +18,8 @@ int main () {
     int num1, num2, num3;
     scanf("%d %d %d", &num1, &num2, &num3);
 
-    int lengthOfNumbersArray = 3; // We were tasked to have 3 numbers
-    // Initialize the array with the user input
+    int lengthOfNumbersArray = 3;
+
     int numbersArray[] = {num1, num2, num3};
     int largestNumber = returnLargestInt(numbersArray, lengthOfNumbersArray);
     printf("%d is the largest number.\n", largestNumber);
