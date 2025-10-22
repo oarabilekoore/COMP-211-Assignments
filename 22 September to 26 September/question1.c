@@ -14,6 +14,7 @@ int main () {
         sum += arr[i];
     }
     avg = (float)sum/n; //Converting to float then getting average
+
     printf("The sum of the elements is %d\n", sum);
     printf("The average of the elements is %.2f\n", avg);
     return 0;

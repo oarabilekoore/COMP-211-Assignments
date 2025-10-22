@@ -21,5 +21,6 @@ int main () {
     }
     printf("The maximum value is %d with index %d\n", max, max_index);
     printf("The minimum value is %d with index %d\n", min, min_index);
+
     return 0;
 }
